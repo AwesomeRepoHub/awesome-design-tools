@@ -8,7 +8,9 @@
 <p><a href="README.en.md">English</a> · <a href="CONTRIBUTING.md">参与贡献</a> · <a href="https://github.com/AwesomeRepoHub/awesome-index">全部合集</a></p>
 </div>
 
-> **15 个项目，共 576k Stars。** Stars、许可证、最近提交时间由 GitHub API 实时读取，数据更新于 2026-10-24。排名按 Stars 排序，仅作热度参考，不代表质量。
+> **27 个项目，共 709k Stars。** Stars、许可证、最近提交时间由 GitHub API 实时读取，数据更新于 2026-10-24。排名按 Stars 排序，仅作热度参考，不代表质量。
+
+<sub>读表说明：Stars 与「更新」都是生成时从 GitHub API 读到的真实值；许可证取自仓库；括号里是使用前要知道的限制。</sub>
 
 ## 30 秒选型
 
@@ -23,47 +25,69 @@
 
 - [设计与原型](#设计与原型)
 - [组件库与设计系统](#组件库与设计系统)
+- [设计系统与基础设施](#设计系统与基础设施)
 - [图标与素材](#图标与素材)
 
 ## 设计与原型
 
-重点看能不能导出可用的代码，而不只是好看。
+_重点看能不能导出可用的代码，而不只是好看。_
 
-| 项目 | 一句话说明 | Stars | 许可证 |
-|:--|:--|--:|:--|
-| [Penpot](https://github.com/penpot/penpot) | 开源的 Figma 替代，设计稿直接给前端 CSS 与 SVG | 61.6k | `MPL-2.0` |
-| [tldraw](https://github.com/tldraw/tldraw) | 可嵌入的白板 SDK，把画布能力装进自己的产品 | 51.1k | `自定义` |
-| [Onlook](https://github.com/onlook-dev/onlook) | 在真实页面上直接改样式并生成代码，设计到实现同一屏 | 27.0k | `Apache-2.0` |
-| [Open Pencil](https://github.com/open-pencil/open-pencil) | 开源 Figma 替代，主打 AI 生成界面 | 9.2k | `MIT` |
-| [Plasmic](https://github.com/plasmicapp/plasmic) | 可视化搭 React 页面，设计稿与代码双向同步 | 7.1k | `MIT` |
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [Penpot](https://github.com/penpot/penpot) | 开源的 Figma 替代，设计稿直接给前端 CSS 与 SVG | 61.6k | `MPL-2.0` | 2026-10 |
+| [tldraw](https://github.com/tldraw/tldraw) | 可嵌入的白板 SDK，把画布能力装进自己的产品 | 51.1k | `自定义` | 2026-10 |
+| [Onlook](https://github.com/onlook-dev/onlook) | 在真实页面上直接改样式并生成代码，设计到实现同一屏 | 27.0k | `Apache-2.0` | 2026-10 |
+| [Open Pencil](https://github.com/open-pencil/open-pencil) | 开源 Figma 替代，主打 AI 生成界面 | 9.2k | `MIT` | 2026-10 |
+| [Plasmic](https://github.com/plasmicapp/plasmic) | 可视化搭 React 页面，设计稿与代码双向同步 | 7.1k | `MIT` | 2026-10 |
+| [figma-html](https://github.com/BuilderIO/figma-html) | 把网页转成可编辑的 Figma 设计稿（长期未更新（2025-08），仅作参考） | 3.7k | `MIT` | 2025-08 |
 
 <sub>[回到目录](#目录)</sub>
 
 ## 组件库与设计系统
 
-选之前先确认：谁维护、多久发版、能不能改主题。
+_选之前先确认：谁维护、多久发版、能不能改主题。_
 
-| 项目 | 一句话说明 | Stars | 许可证 |
-|:--|:--|--:|:--|
-| [Material UI](https://github.com/mui/material-ui) | React 最成熟的组件库，组件全、企业项目稳 | 99.3k | `MIT` |
-| [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | 原子化 CSS，改样式不用切文件，事实标准 | 98.0k | `MIT` |
-| [Storybook](https://github.com/storybookjs/storybook) | 组件开发与文档工作台，设计系统必备 | 91.4k | `MIT` |
-| [daisyUI](https://github.com/saadeghi/daisyui) | 给 Tailwind 加语义类名，少写一长串 utility | 42.7k | `MIT` |
-| [Chakra UI](https://github.com/chakra-ui/chakra-ui) | 可访问性好的 React 组件系统，主题定制顺手 | 40.7k | `MIT` |
-| [Primer CSS](https://github.com/primer/css) | GitHub 自家设计系统的 CSS 实现，信息密度高 | 13.0k | `MIT` |
-| [HyperUI](https://github.com/markmead/hyperui) | 复制即用的 Tailwind 组件片段，营销页搭得快 | 12.3k | `MIT` |
-| [Carbon](https://github.com/carbon-design-system/carbon) | IBM 的设计系统，企业级表格与表单控件齐全 | 9.6k | `Apache-2.0` |
-| [Reka UI](https://github.com/unovue/reka-ui) | 无样式可访问组件，外观自己控，Vue/React 都能用 | 6.9k | `MIT` |
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [Material UI](https://github.com/mui/material-ui) | React 最成熟的组件库，组件全、企业项目稳 | 99.3k | `MIT` | 2026-10 |
+| [daisyUI](https://github.com/saadeghi/daisyui) | 给 Tailwind 加语义类名，少写一长串 utility | 42.7k | `MIT` | 2026-10 |
+| [Chakra UI](https://github.com/chakra-ui/chakra-ui) | 可访问性好的 React 组件系统，主题定制顺手 | 40.7k | `MIT` | 2026-10 |
+| [Stencil](https://github.com/stenciljs/core) | 编译 Web Components 的组件工具链，跨框架复用 | 13.1k | `自定义` | 2026-10 |
+| [HyperUI](https://github.com/markmead/hyperui) | 复制即用的 Tailwind 组件片段，营销页搭得快 | 12.3k | `MIT` | 2026-10 |
+| [Material Web](https://github.com/material-components/material-web) | Material Design 官方 Web Components | 11.4k | `Apache-2.0` | 2026-10 |
+| [Base UI](https://github.com/mui/base-ui) | 无样式可访问组件，MUI 团队出品，外观完全自控 | 11.2k | `MIT` | 2026-10 |
+| [Semi Design](https://github.com/DouyinFE/semi-design) | 字节的设计系统，中后台组件与表格齐全 | 10.4k | `自定义` | 2026-10 |
+| [Flowbite](https://github.com/themesberg/flowbite) | Tailwind 组件库加交互组件，营销页搭得快 | 9.4k | `MIT` | 2026-06 |
+| [Grommet](https://github.com/grommet/grommet) | React 无障碍组件框架，适合数据密集型界面 | 8.4k | `Apache-2.0` | 2026-10 |
+| [Reka UI](https://github.com/unovue/reka-ui) | 无样式可访问组件，外观自己控，Vue/React 都能用 | 6.9k | `MIT` | 2026-10 |
+
+<sub>[回到目录](#目录)</sub>
+
+## 设计系统与基础设施
+
+_自建设计系统时才需要：文档站、token 编译、基础样式。_
+
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | 原子化 CSS，改样式不用切文件，事实标准 | 98.0k | `MIT` | 2026-10 |
+| [Storybook](https://github.com/storybookjs/storybook) | 组件开发与文档工作台，设计系统必备 | 91.4k | `MIT` | 2026-10 |
+| [Primer CSS](https://github.com/primer/css) | GitHub 自家设计系统的 CSS 实现，信息密度高 | 13.0k | `MIT` | 2026-10 |
+| [Carbon](https://github.com/carbon-design-system/carbon) | IBM 的设计系统，企业级表格与表单控件齐全 | 9.6k | `Apache-2.0` | 2026-10 |
+| [Panda CSS](https://github.com/chakra-ui/panda) | 类型安全的 CSS-in-JS，专为设计系统设计 | 6.2k | `MIT` | 2026-10 |
+| [Skeleton](https://github.com/skeletonlabs/skeleton) | Tailwind 驱动的自适应设计系统 | 6.1k | `MIT` | 2026-10 |
+| [Style Dictionary](https://github.com/style-dictionary/style-dictionary) | 把设计 token 编译成各平台样式，设计系统基础设施 | 4.9k | `Apache-2.0` | 2026-10 |
 
 <sub>[回到目录](#目录)</sub>
 
 ## 图标与素材
 
-统一图标风格，比找一百个免费素材更值。
+_统一图标风格，比找一百个免费素材更值。_
 
-| 项目 | 一句话说明 | Stars | 许可证 |
-|:--|:--|--:|:--|
-| [Iconify](https://github.com/iconify/iconify) | 20 万+ 图标统一接口，一个组件切换全部图标集 | 6.4k | `MIT` |
+| 项目 | 一句话说明 | Stars | 许可证 | 更新 |
+|:--|:--|--:|:--|--:|
+| [Lucide](https://github.com/lucide-icons/lucide) | 社区维护的图标集，风格统一，各框架都有包 | 25.2k | `自定义` | 2026-10 |
+| [Tabler Icons](https://github.com/tabler/tabler-icons) | 6200+ 个 MIT 图标，统一 2px 描边，直接当 SVG 用 | 22.4k | `MIT` | 2026-10 |
+| [Iconify](https://github.com/iconify/iconify) | 20 万+ 图标统一接口，一个组件切换全部图标集 | 6.4k | `MIT` | 2026-10 |
 
 <sub>[回到目录](#目录)</sub>
 
